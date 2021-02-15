@@ -18,7 +18,7 @@ public class PlayerShoot : NetworkBehaviour
     {
         if(cam == null)
         {
-            Debug.LogError("Pas de caméra renseignée sur le système de tir.");
+            Debug.LogError("no cam lol");
             this.enabled = false;
         }
 
