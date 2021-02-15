@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        Debug.LogError("Plus d'une instance de GameManager dans la scène");
+        Debug.LogError("Remove other instances of gamemanager");
     }
 
     public static void RegisterPlayer(string netID, Player player)
