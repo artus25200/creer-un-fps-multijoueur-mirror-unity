@@ -81,7 +81,7 @@ public class Player : NetworkBehaviour
         }
 
         currentHealth -= amount;
-        Debug.Log(transform.name + " a maintenant : " + currentHealth + " points de vies.");
+        Debug.Log(transform.name + " have now " + currentHealth + "hp.");
 
         if(currentHealth <= 0)
         {
@@ -104,7 +104,7 @@ public class Player : NetworkBehaviour
             col.enabled = false;
         }
 
-        Debug.Log(transform.name + " a été éliminé.");
+        Debug.Log(transform.name + " Was eliminated");
 
         StartCoroutine(Respawn());
     }
